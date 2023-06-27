@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+pyside6 = "*"
+pywin32 = "*"
+ydata-profiling = "*"
+mplfinance = "*"
+metatrader5 = "*"
+dash = "*"
+dash-html-components = "*"
+dash-core-components = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.1"
